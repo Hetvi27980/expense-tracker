@@ -32,68 +32,6 @@ Expense Tracker/
 └── README.md        # This file
 ```
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Python 3.8+
-- Node.js 18+
-- MySQL 5.7+ or MariaDB
-
-### Backend Setup
-
-1. **Navigate to backend:**
-   ```bash
-   cd backend
-   ```
-
-2. **Create virtual environment:**
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate  # Windows
-   # or
-   source venv/bin/activate  # Linux/Mac
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Configure database:**
-   - Create MySQL database: `CREATE DATABASE expense_tracker;`
-   - Copy `.env.example` to `.env`
-   - Edit `.env` with your MySQL credentials
-
-5. **Initialize database:**
-   ```bash
-   python init_db.py
-   ```
-
-6. **Run backend:**
-   ```bash
-   python run.py
-   ```
-   Backend runs on: http://localhost:3000
-
-### Frontend Setup
-
-1. **Navigate to frontend:**
-   ```bash
-   cd frontend
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Run frontend:**
-   ```bash
-   npm run dev
-   ```
-   Frontend runs on: http://localhost:5173
-
 ## ✨ Features
 
 ### Authentication
